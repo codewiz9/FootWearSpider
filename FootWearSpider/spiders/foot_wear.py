@@ -4,7 +4,7 @@ import json
 class FootWearSpider(scrapy.Spider):
     name = "foot_wear"
     #x is the ammount of response on each page 
-    x = 30
+    x = 150
     start_urls = [f"https://rulings.cbp.gov/api/search?term=foot%20wear&collection=ALL&pageSize={x}&page=1&sortBy=RELEVANCE"]
 
     def parse(self, response):
