@@ -5,7 +5,7 @@ NEWSPIDER_MODULE = "FootWearSpider.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-SCRAPEOPS_API_KEY = '82871d8b-d8f0-462a-879d-cef5beed14cb' 
+SCRAPEOPS_API_KEY = 'your key' 
 SCRAPEOPS_PROXY_ENABLED = True
 
 DOWNLOADER_MIDDLEWARES = {
